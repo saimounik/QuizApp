@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="testSize_25">25sp</dimen>
+
+    <dimen name="marginLeft_60">60dp</dimen>
+
+    <dimen name="marginRight_50">50dp</dimen>
+
+    <dimen name="padding_5">10dp</dimen>
+
+    <dimen name="textsize">20sp</dimen>
+</resources>

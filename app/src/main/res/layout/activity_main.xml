@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEBE9"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backround"
+            android:gravity="center"
+            android:padding="@dimen/padding_5"
+            android:text="@string/welcome"
+            android:textAllCaps="true"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/textsize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:hint="@string/name"
+            android:inputType="textMultiLine"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q1"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/Q1_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:hint="@string/Answer"
+            android:inputType="textMultiLine"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/Q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q2"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+
+        <RadioGroup
+            android:id="@+id/radio_group_Q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button_Q2_opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q2_Opt1"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q2_opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q2_Opt2"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q2_opt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q2_Opt3"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q2_opt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q2_Opt4"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/Q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q3"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <CheckBox
+            android:id="@+id/Q3_opt1_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q3_Opt1"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/Q3_opt2_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q3_Opt2"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/Q3_opt3_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q3_Opt3"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/Q3_opt4_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q3_Opt4"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/Q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q4"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+
+        <RadioGroup
+            android:id="@+id/radio_group_Q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button_Q4_Opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q4_Opt1"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q4_opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q4_Opt2"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q4_opt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q4_Opt3"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q4_opt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q4_Opt4"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/Q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q5"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+
+        <RadioGroup
+            android:id="@+id/radio_group_Q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button_Q5_Opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q5_Opt1"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q5_opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q5_Opt2"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q5_opt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q5_Opt3"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q5_opt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q5_Opt4"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/Q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q6"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/Q6_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:hint="@string/Answer"
+            android:inputType="textMultiLine"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/Q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q7"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <CheckBox
+            android:id="@+id/Q7_opt1_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q7_Opt1"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/Q7_opt2_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q7_Opt2"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/Q7_opt3_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q7_Opt3"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/Q7_opt4_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q7_Opt4"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/Q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q8"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+
+        <RadioGroup
+            android:id="@+id/radio_group_Q8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button_Q8_opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q8_Opt1"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q8_opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q8_Opt2"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q8_opt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q9_Opt3"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q8_opt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q8_Opt4"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q9"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+
+        <RadioGroup
+            android:id="@+id/radio_group_Q9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button_Q9_opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q9_Opt1"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q9_opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q9_Opt2"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q9_opt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q9_Opt3"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q9_opt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q9_Opt4"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="@string/Q10"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+
+        <RadioGroup
+            android:id="@+id/radio_group_Q10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button_Q10_opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q10_Opt1"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q10_opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q10_Opt2"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q10_opt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q10_Opt3"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_Q10_opt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q10_Opt4"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#000000" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_weight="1"
+                android:background="#1B5E20"
+                android:onClick="submitQuiz"
+                android:text="@string/submit"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/Reset_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_weight="1"
+                android:background="#1B5E20"
+                android:onClick="reset"
+                android:text="@string/reset"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

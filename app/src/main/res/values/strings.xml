@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Gst Quizz</string>
+
+    <string name="welcome">Gst Quizz</string>
+
+    <string name="name">Enter your name here</string>
+
+    <string name="Q1">1.Gst comes under ?</string>
+
+    <string name="Q2">2.Which of the following country is the first one to implement Gst ?</string>
+
+    <string name="Q2_Opt1">China</string>
+
+    <string name="Q2_Opt2">Germany</string>
+
+    <string name="Q2_Opt3">France</string>
+
+    <string name="Q2_Opt4">Russia</string>
+
+    <string name="Q3">Which of these called as a Company as per Indian Companies act 2013?</string>
+
+    <string name="Q3_Opt1">Public limited company (PLC)</string>
+
+    <string name="Q3_Opt2">Private company limited by shares (LTD)</string>
+
+    <string name="Q3_Opt3">Company limited by guarantee</string>
+
+    <string name="Q3_Opt4">Unlimited company (Unltd)</string>
+
+    <string name="Q4">4.Which of the following tax rate is not applicable under the GST?</string>
+
+    <string name="Q4_Opt1">18</string>
+
+    <string name="Q4_Opt2">25</string>
+
+    <string name="Q4_Opt3">5</string>
+
+    <string name="Q4_Opt4">12</string>
+
+    <string name="Q5">5. Who is the head of the GST council?</string>
+
+    <string name="Q5_Opt1">Amit Mitra</string>
+
+    <string name="Q5_Opt2">Arun Jaitley</string>
+
+    <string name="Q5_Opt3">Hasmukh Adhia</string>
+
+    <string name="Q5_Opt4">Shashi Kant Das</string>
+
+    <string name="Q6">6.Which good will not be covered under the GST bill</string>
+
+    <string name="Q7">7.GST will be levied on………………</string>
+
+    <string name="Q7_Opt1">Manufacturers</string>
+
+    <string name="Q7_Opt2">Retailers</string>
+
+    <string name="Q7_Opt3">Consumers</string>
+
+    <string name="Q7_Opt4">All of the above</string>
+
+    <string name="Q8">8. Which of the following tax will be abolished by the GST?</string>
+
+    <string name="Q8_Opt1">Service Tax</string>
+
+    <string name="Q8_Opt2">Corporation tax</string>
+
+    <string name="Q8_Opt3">Income Tax</string>
+
+    <string name="Q8_Opt4">Wealth Tax</string>
+
+    <string name="Q9">9. The concept of Goods and Services Tax (GST) is originated in……</string>
+
+    <string name="Q9_Opt1">Canada</string>
+
+    <string name="Q9_Opt2">USA</string>
+
+    <string name="Q9_Opt3">Britain</string>
+
+    <string name="Q9_Opt4">Germany</string>
+
+    <string name="Q10">10. Which constitutional amendment is done to pass the GST bill?</string>
+
+    <string name="Q10_Opt1">122nd</string>
+
+    <string name="Q10_Opt2">120th</string>
+
+    <string name="Q10_Opt3">101st</string>
+
+    <string name="Q10_Opt4">115th</string>
+
+    <string name="Answer">Type your answer here</string>
+
+    <string name="allCorrectAns">Congratulations!! You Got All The Right Answers!</string>
+
+    <string name="submit">submit</string>
+
+    <string name="score">%1$d right answers</string>
+
+    <string name="quizResultText">You Got %1$d Right Answers and %2$d Wrong Answers. You Can Retake the Quiz By Clicking Reset Button!</string>
+
+    <string name="shareResultText">Hey I Got %1$d Right Answers and %2$d Wrong Answers of the Quiz!.</string>
+
+    <string name="shareResult">Share using</string>
+
+    <string name="reset">Quiz Reset!</string>
+</resources>
